@@ -1,0 +1,6 @@
+@media(min-width:1200px){.hero .rel{text-align:left!important}.hero .rel .script{right:0;top:4%;font-size:1.5rem;z-index:2}}
+@media(max-width:991px){.site-header .navbar-collapse{padding:14px 0}.nav-tools{margin-top:10px}.hero{text-align:center}.hero .socials,.hero .cta-row{justify-content:center}.banner::after{display:none}}
+@media(max-width:575px){section{padding:46px 0}.banner{padding:40px 0 70px}.cta{padding:26px}.ring-lg{width:260px}.meta-list b{min-width:78px}}
+/* Portfolio page: single column below 992px, 2-up project cards on phones */
+@media(max-width:991px){.pf-grid{grid-template-columns:minmax(0,1fr);gap:40px}}
+@media(max-width:575px){.pf-col{gap:32px}.pf-projects{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}}
